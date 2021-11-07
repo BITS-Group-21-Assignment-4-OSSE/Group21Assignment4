@@ -36,6 +36,7 @@ void test_minus_100() {
         test_print("FAILED: test_minus_100()\n");
     }
     
+    /*added by Aayushe*/
     void test_positive() {
     const char *str1 = "abc";
     const char *str2 = "abcd";
