@@ -1,4 +1,4 @@
-
+/* Aman added a comment here*/
 void test_print(const char *message) {
     printf("%s", message);
 }
@@ -33,6 +33,15 @@ void test_minus_100() {
     if (result != -100) {
         test_print("FAILED: test_minus_100()\n");
     }
+    
+    void test_positive() {
+    const char *str1 = "abc";
+    const char *str2 = "abcd";
+    int result = mx_strcmp(str1, str2);
+
+    if (result != 20) {
+        test_print("FAILED: test_positive()\n");
+    }
 }
 
 // Run all
@@ -41,4 +50,5 @@ void tests_run_all(void) {
     test_equal_strings();
     test_99();
     test_minus_100();
+    test_positive();
 }
