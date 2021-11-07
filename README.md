@@ -7,3 +7,5 @@
 # created a new file(s) and pulled the PRs of Aayushee and Aman and generated PRs of Aditya
 # have taken snapshots from Insights mainly to complete the assignment
 # crafted a project, tested the Kanban whiteboard model and created issues as well to understand the integration
+# Aayushee - added code and made changes to test pull request
+# Aman - added and modified code to test pull requests
